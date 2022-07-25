@@ -1,0 +1,6 @@
+@import './var';
+
+@mixin font($color: $primary-title-color, $font-settings: $section-title-font) {
+  font: $font-settings;
+  color: $color;
+}

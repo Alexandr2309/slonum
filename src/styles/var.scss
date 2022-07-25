@@ -1,0 +1,37 @@
+@import url('https://fonts.googleapis.com/css2?famil:Rubik:wght@400;700&displa:swap'); // Rubik Font
+@import url('https://fonts.googleapis.com/css2?famil:Nunito:wght@400;700&displa:swap'); // Nunito Font
+
+/*Fonts*/
+$main-title-font: 700 55px/122% 'Nunito';
+$section-title-font: 700 32px/44px 'Nunito';
+$common-font: 400 22px/150% 'Rubik';
+$paragraf-font: 400 18px/150% 'Rubik';
+$timer-num-font: 700 32px/38px 'Rubik';
+$timer-label-font: 400 16px/22px 'Nunito';
+$label-font: 400 15px/166% 'Rubik';
+$point-card-font: 20px/24px 'Rubik';
+
+/*Colors*/
+$primary-title-color: #1f1d2a;
+$secondary-title-color: #ffffff;
+$primary-text-color: #4f5569;
+$orange-color: #ff652f;
+$label-color: #9fa0a7;
+$primary-accent-color: #14a76c;
+$secondary-accent-color: #ff946e;
+
+/*Box-shadow*/
+$timer-shadow: 0px 5px 30px rgba(215, 211, 225, 0.5);
+$primary-button-shadow: 0px 15px 30px rgba(25, 218, 140, 0.25);
+$point-card-shadow: 0px 5px 30px rgba(215, 211, 225, 0.5);
+
+/*Btn config*/
+$secondary-btn-color: 0px 15px 30px rgba(218, 71, 25, 0.25);
+$primary-btn-background: $primary-accent-color;
+$secondary-btn-background: #e02d05;
+$auth-btn-background: $secondary-title-color;
+$primary-btn-font: 700 $point-card-font;
+$auth-btn-font: 400 $point-card-font;
+
+/*global*/
+$background-color: #ffffff;

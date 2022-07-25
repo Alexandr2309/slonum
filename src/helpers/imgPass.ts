@@ -1,0 +1,1 @@
+import logo from '../img/Header/logo.png';const objOfPath:{[propName: string] : string} = {  logo: logo,}export default objOfPath
