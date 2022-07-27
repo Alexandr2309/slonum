@@ -1,5 +1,5 @@
-@import url('https://fonts.googleapis.com/css2?famil:Rubik:wght@400;700&displa:swap'); // Rubik Font
-@import url('https://fonts.googleapis.com/css2?famil:Nunito:wght@400;700&displa:swap'); // Nunito Font
+@import url('https://fonts.googleapis.com/css2?family=Rubik:wght@400;500;700&display=swap'); // Rubik Font
+@import url('https://fonts.googleapis.com/css2?family=Nunito:wght@400;700;900&display=swap'); // Nunito Font
 
 /*Fonts*/
 $main-title-font: 700 55px/122% 'Nunito';
@@ -10,28 +10,42 @@ $timer-num-font: 700 32px/38px 'Rubik';
 $timer-label-font: 400 16px/22px 'Nunito';
 $label-font: 400 15px/166% 'Rubik';
 $point-card-font: 20px/24px 'Rubik';
+$policy-label-font: 400 15px/18px "Rubik";
+$footer-caption-font: 400 20px/27px "Nunito";
+$footer-link-font: 700 20px/27px "Nunito";
+$plan-num-font: 700 40px/60px "Rubik";
+$plan-text-font: 400 $point-card-font;
 
 /*Colors*/
 $primary-title-color: #1f1d2a;
 $secondary-title-color: #ffffff;
+$about-color: $primary-title-color;
 $primary-text-color: #4f5569;
 $orange-color: #ff652f;
 $label-color: #9fa0a7;
 $primary-accent-color: #14a76c;
 $secondary-accent-color: #ff946e;
+$checkbox-color: $primary-accent-color;
+$question-separate-color: $primary-title-color;
+$footer-link-color: $primary-title-color;
+$footer-caption-color: $primary-text-color;
 
 /*Box-shadow*/
 $timer-shadow: 0px 5px 30px rgba(215, 211, 225, 0.5);
-$primary-button-shadow: 0px 15px 30px rgba(25, 218, 140, 0.25);
+$primary-btn-shadow: 0px 15px 30px rgba(25, 218, 140, 0.25);
 $point-card-shadow: 0px 5px 30px rgba(215, 211, 225, 0.5);
+$secondary-btn-shadow: 0px 15px 30px rgba(218, 71, 25, 0.25);
+$cost-shadow: 0px 5px 15px rgba(20, 167, 114, 0.2);
 
 /*Btn config*/
-$secondary-btn-color: 0px 15px 30px rgba(218, 71, 25, 0.25);
+$primary-btn-color: #ffffff;
 $primary-btn-background: $primary-accent-color;
 $secondary-btn-background: #e02d05;
 $auth-btn-background: $secondary-title-color;
 $primary-btn-font: 700 $point-card-font;
 $auth-btn-font: 400 $point-card-font;
+$auth-btn-border: 1px solid $primary-title-color;
 
 /*global*/
-$background-color: #ffffff;
+$background-color: #F5F5F5;
+$cost-item-color: $primary-accent-color;

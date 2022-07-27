@@ -1,38 +1,130 @@
-.App {
+@import './config';
+@import "./Mailing";
+header {
+  padding-top: 30px;
+  margin-bottom: 279px;
+  & > div:first-child {
+    position: absolute;
+    right: 0;
+    top: 0px;
+    z-index: -1;
+  }
+}
+img {
+  display: block;
+  max-width: 100%;
+  height: auto;
+}
+.about {
   text-align: center;
-}
-
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
-}
-
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
+  font: $common-font;
+  max-width: 790px;
+  margin: 0px auto 164px;
+  color: $about-color;
+  letter-spacing: 0.05em;
+  & span {
+    color: $primary-accent-color;
+    font-weight: 700;
+  }
+  & b {
+    font-weight: 700;
   }
 }
-
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
+.section-title {
+  @include font();
+  letter-spacing: 0.04em;
+  text-align: center;
+  margin-bottom: 58px;
+  & span {
+    position: relative;
+    &::before {
+      content: '';
+      position: absolute;
+      bottom: -8px;
+      left: 0;
+      background: url('../img/generics/underline.png') 0 0 no-repeat;
+      background-size: 100% 100%;
+      height: 10px;
+      width: 100%;
+    }
+  }
+}
+.form {
+  flex: 1 1 auto;
   display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
-}
-
-.App-link {
-  color: #61dafb;
-}
-
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
+  &__inputs {
+    margin-bottom: 50px;
+    flex: 1 1 auto;
   }
-  to {
-    transform: rotate(360deg);
+  &__content {
+    display: inline-flex;
+    flex-direction: column;
+    gap: 20px;
+    width: 100%;
+    max-width: 540px;
   }
+  &-input {
+    max-width: 540px;
+    & input {
+      width: 100%;
+      padding: 17px 0px 17px 20px;
+      border: none;
+      background: #ffffff;
+      border: 1px solid $label-color;
+      border-radius: 15px;
+      @include font($primary-text-color, 400 $point-card-font);
+      &:focus-visible {
+        outline: none;
+      }
+    }
+  }
+}
+.app-form {
+  & .policy-accent {
+    text-decoration-line: underline;
+    color: $primary-accent-color;
+    font-weight: 700;
+  }
+}
+.custom-checkbox {
+  position: absolute;
+  z-index: -1;
+  opacity: 0;
+}
+.custom-checkbox + label {
+  display: inline-flex;
+  max-width: 540px;
+  align-items: flex-start;
+  user-select: none;
+  @include font($label-color, $policy-label-font);
+  letter-spacing: 0.04em;
+}
+.custom-checkbox + label::before {
+  content: '';
+  display: inline-block;
+  width: 18.5px;
+  height: 18.5px;
+  flex: 0 0 auto;
+  background-color: white;
+  border: 1.5px solid $checkbox-color;
+  border-radius: 5px;
+  margin-right: 12px;
+  background-repeat: no-repeat;
+  background-position: center center;
+  background-size: 10px 6px;
+}
+.custom-checkbox:checked + label::before {
+  background-color: $checkbox-color;
+  background-image: url('../img/generics/check.png');
+}
+.questions {
+  margin-bottom: 200px;
+  & .container {
+    & > div:last-child {
+      border-bottom: 1px solid $question-separate-color;
+    }
+  }
+}
+.primary-btn {
+  @extend %primaryBtn;
 }

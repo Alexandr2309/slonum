@@ -1,0 +1,37 @@
+.mailing {
+  background: url('../img/SubscribeMailing/background.png') 120px 0 no-repeat;
+  padding: 30px 0px  67px 0px;
+  &  .policy-accent {
+    color: #ffffff;
+    font-weight: 700;
+    text-decoration: underline;
+  }
+  &__subtitle {
+    @include font(#ffffff, $paragraf-font);
+    margin: 0px auto;
+    max-width: 406px;
+    margin-bottom: 40px;
+    text-align: center;
+  }
+  & h2 {
+    margin-bottom: 20px;
+    color: #ffffff;
+  }
+  & button {
+    box-shadow: none !important;
+  }
+  &__actions {
+    display: flex;
+    gap: 30px;
+    justify-content: center;
+    flex-wrap: wrap;
+    margin-bottom: 20px;
+  }
+  & .form-input {
+    flex: 1 1 auto;
+  }
+  & .checkbox-block {
+    //display: inline-flex;
+    margin-left: 266px;
+  }
+}

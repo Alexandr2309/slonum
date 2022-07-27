@@ -2,24 +2,62 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="33155a1d-215d-47c9-9c7d-1771c36a58a9" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/src/components/Header/Header.tsx" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/components/UI/Button.tsx" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/helpers/imgPass.ts" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/styles/config.scss" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/styles/var.scss" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/types/index.d.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/components/About/About.tsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/components/Advantages/Advantages.tsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/components/Application/Application.tsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/components/Application/ApplicationCost/ApplicationCost.tsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/components/Application/ApplicationCost/ApplicationCostBookmark.tsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/components/Application/ApplicationCost/ApplicationCostDiscount.tsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/components/Application/ApplicationCost/ApplicationCostPrice.tsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/components/Application/ApplicationForm/ApplicationForm.tsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/components/Application/ApplicationForm/ApplicationFormInputs.tsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/components/Application/ApplicationForm/ApplicationSubmit.tsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/components/Diploma/Diploma.tsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/components/Diploma/DiplomaInfo.tsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/components/Footer/Footer.tsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/components/Footer/FooterIcons.tsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/components/Footer/FooterLinks.tsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/components/Footer/FooterScrollingTop.tsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/components/Footer/FooterSocials.tsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/components/Header/HeaderInfo.tsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/components/Header/HeaderTimer.tsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/components/Header/HeaderTop.tsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/components/Layout/Container.tsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/components/Plan/Plan.tsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/components/Plan/PlanBasic.tsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/components/Plan/PlanDashedWrapper.tsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/components/Plan/PlanItem.tsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/components/Plan/PlanItems.tsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/components/Questions/Questions.tsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/components/SubscribeMailing/MailingForm.tsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/components/SubscribeMailing/MailingFormActions.tsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/components/SubscribeMailing/SubscribeMailing.tsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/components/UI/CheckBox.tsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/components/shared/FormInput.tsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/components/shared/Heading.tsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/helpers/helperFunc.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/styles/Accordion.module.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/styles/Application.module.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/styles/Diploma.module.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/styles/Footer.module.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/styles/Mailing.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/styles/Plan.module.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/styles/reset.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/types/index.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.eslintrc.json" beforeDir="false" afterPath="$PROJECT_DIR$/.eslintrc.json" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/package-lock.json" beforeDir="false" afterPath="$PROJECT_DIR$/package-lock.json" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/package.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/App.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/styles/App.scss" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/App.test.tsx" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/src/App.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/App.tsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/index.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/styles/index.scss" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/index.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/index.tsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/logo.svg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/react-app-env.d.ts" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/reportWebVitals.ts" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/setupTests.ts" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/Header/Header.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/Header/Header.tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/UI/Button.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/UI/Button.tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/helpers/imgPass.ts" beforeDir="false" afterPath="$PROJECT_DIR$/src/helpers/imgPass.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/styles/App.scss" beforeDir="false" afterPath="$PROJECT_DIR$/src/styles/App.scss" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/styles/Header.module.scss" beforeDir="false" afterPath="$PROJECT_DIR$/src/styles/Header.module.scss" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/styles/config.scss" beforeDir="false" afterPath="$PROJECT_DIR$/src/styles/config.scss" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/styles/index.scss" beforeDir="false" afterPath="$PROJECT_DIR$/src/styles/index.scss" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/styles/var.scss" beforeDir="false" afterPath="$PROJECT_DIR$/src/styles/var.scss" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/types/index.d.ts" beforeDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -38,24 +76,34 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent"><![CDATA[{
-  "keyToString": {
-    "RunOnceActivity.OpenProjectViewOnStart": "true",
-    "RunOnceActivity.ShowReadmeOnStart": "true",
-    "WebServerToolWindowFactoryState": "false",
-    "last_opened_file_path": "D:/Programming/slonum",
-    "nodejs_package_manager_path": "npm",
-    "prettierjs.PrettierConfiguration.Package": "D:\\Programming\\slonum\\node_modules\\prettier",
-    "settings.editor.selected.configurable": "MTConfigurable",
-    "ts.external.directory.path": "D:\\Programming\\slonum\\node_modules\\typescript\\lib",
-    "vue.rearranger.settings.migration": "true"
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;WebServerToolWindowFactoryState&quot;: &quot;false&quot;,
+    &quot;eslint.code.style.apply.dismiss&quot;: &quot;true&quot;,
+    &quot;last_opened_file_path&quot;: &quot;D:/Programming/slonum&quot;,
+    &quot;nodejs_package_manager_path&quot;: &quot;npm&quot;,
+    &quot;prettierjs.PrettierConfiguration.Package&quot;: &quot;D:\\Programming\\slonum\\node_modules\\prettier&quot;,
+    &quot;settings.editor.selected.configurable&quot;: &quot;MTConfigurable&quot;,
+    &quot;ts.external.directory.path&quot;: &quot;D:\\Programming\\slonum\\node_modules\\typescript\\lib&quot;,
+    &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
   }
-}]]></component>
+}</component>
   <component name="RecentsManager">
     <key name="MoveFile.RECENT_KEYS">
+      <recent name="D:\Programming\slonum\src\components" />
+      <recent name="D:\Programming\slonum\src\components\Application\ApplicationForm" />
+      <recent name="D:\Programming\slonum\src\components\UI" />
+      <recent name="D:\Programming\slonum\src\img\generics" />
       <recent name="D:\Programming\slonum\src\img\Header" />
-      <recent name="D:\Programming\slonum\src" />
-      <recent name="D:\Programming\slonum\src\styles" />
+    </key>
+    <key name="es6.move.members.recent.items">
+      <recent name="D:\Programming\slonum\src\components\Footer\FooterIcons.tsx" />
+      <recent name="D:\Programming\slonum\src\components\SubscribeMailing\MailingFormActions.tsx" />
+      <recent name="D:\Programming\slonum\src\components\Application\ApplicationCost\ApplicationCostPrice.tsx" />
+      <recent name="D:\Programming\slonum\src\components\Application\ApplicationCost\CostBookmark.tsx" />
+      <recent name="D:\Programming\slonum\src\components\Application\ApplicationCost\CostDiscount.tsx" />
     </key>
   </component>
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
@@ -66,7 +114,9 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1658701491268</updated>
-      <workItem from="1658701492504" duration="9152000" />
+      <workItem from="1658701492504" duration="29769000" />
+      <workItem from="1658786170496" duration="23775000" />
+      <workItem from="1658872506247" duration="8682000" />
     </task>
     <servers />
   </component>

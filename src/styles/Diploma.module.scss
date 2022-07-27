@@ -1,0 +1,31 @@
+@import './config';
+
+.diploma {
+  padding-bottom: 197px;
+  background: url("../img/Diploma/waves.png")0 182px no-repeat;
+  margin-top: -34px;
+}
+.block {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  gap: 214px;
+  & > div:last-child {
+    flex: 1 1 57.60%;
+    width: 100%;
+  }
+  & > div:first-child {
+    flex: 0 1 42.40%;
+  }
+  & h2 {
+    text-align: left;
+    margin-bottom: 27px;
+  }
+  & p {
+    @include font($primary-text-color, $paragraf-font);
+    letter-spacing: 0.05em;
+    &:not(:first-of-type) {
+      margin-top: 35px;
+    }
+  }
+}

@@ -1,1 +1,0 @@
-declare module '*.png'export interface IButtonProps {    cl: string    text?: string}

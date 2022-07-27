@@ -1,0 +1,55 @@
+@import './config';
+
+.plan {
+  background: url('../img/Plan/sky.png') 0 0 no-repeat;
+  padding-bottom: 244px;
+  padding-top: 40px;
+  & h2 {
+    margin-bottom: 133px;
+  }
+  &Item {
+    display: flex;
+    gap: 40px;
+    position: absolute;
+    &:nth-child(1) {
+      top: 0;
+      left: 0;
+      transform: translate(-68.25px,-44px );
+    }
+    &:nth-child(2) {
+      top: 157px;
+      left: 396.92px;
+    }
+    &:nth-child(3) {
+      bottom: -7px;
+      left: 876.92px;
+    }
+  }
+  &Num {
+    @include font(#ffffff, $plan-num-font);
+    width: 80px;
+    height: 80.3px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 50%;
+    background-color: $orange-color;
+  }
+  &Text {
+    flex: 0 1 auto;
+    @include font($primary-text-color, $plan-text-font);
+    letter-spacing: 0.04em;
+    max-width: 270px;
+    & a {
+      color: $primary-accent-color;
+      text-decoration: underline;
+    }
+  }
+}
+.dashed {
+  display: flex;
+  justify-content: flex-end;
+}
+.image {
+  position: relative;
+}

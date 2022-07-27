@@ -1,1 +1,79 @@
-.top{  &Logo{    display: flex;    align-items: center;  }  &Auth{  }}
+@import './config';
+
+.top {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 248px;
+  &Logo {
+    display: flex;
+    align-items: flex-end;
+    gap: 5px;
+  }
+  &Text {
+    font: 500 34.125px/40px Rubik;
+    color: $primary-title-color;
+    & span {
+      color: $orange-color;
+    }
+  }
+  &Auth {
+    @extend %authBtn;
+    color: $primary-title-color;
+  }
+}
+.main {
+  max-width: 46.85%;
+  &Label {
+    @include font($label-color, $label-font);
+    text-transform: uppercase;
+  }
+  &Title {
+    @include font(_, $main-title-font);
+    margin-bottom: 40px;
+  }
+  &Subtitle {
+    @include font($primary-text-color, $paragraf-font);
+    letter-spacing: 0.05em;
+    margin-bottom: 60px;
+  }
+  &Btn {
+    @extend %primaryBtn;
+  }
+  &Action {
+    display: flex;
+    gap: 60px;
+    align-items: start;
+  }
+}
+.timer {
+  flex: 1 1 auto;
+  display: flex;
+  gap: 27px;
+  & > div {
+    padding-bottom: 4px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    &:not(:last-child) {
+      .timerItem {
+        &::after {
+          @extend %colonTimer;
+        }
+      }
+    }
+  }
+
+  &Item {
+    color: $orange-color;
+    font: $timer-num-font;
+    background-color: #ffffff;
+    box-shadow: $timer-shadow;
+    border-radius: 16px;
+    padding: 11px 15.5px;
+    position: relative;
+  }
+  &Label {
+    @include font($primary-title-color, $timer-label-font);
+  }
+}
