@@ -2,7 +2,9 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="33155a1d-215d-47c9-9c7d-1771c36a58a9" name="Changes" comment="">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/components/About/About.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/About/About.tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/styles/Application.module.scss" beforeDir="false" afterPath="$PROJECT_DIR$/src/styles/Application.module.scss" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -40,7 +42,7 @@
     "RunOnceActivity.ShowReadmeOnStart": "true",
     "WebServerToolWindowFactoryState": "false",
     "eslint.code.style.apply.dismiss": "true",
-    "last_opened_file_path": "D:/Programming/slonum",
+    "last_opened_file_path": "D:/Programming/slonum/public",
     "nodejs_package_manager_path": "npm",
     "prettierjs.PrettierConfiguration.Package": "D:\\Programming\\slonum\\node_modules\\prettier",
     "settings.editor.selected.configurable": "MTConfigurable",
@@ -49,6 +51,9 @@
   }
 }]]></component>
   <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="D:\Programming\slonum\public" />
+    </key>
     <key name="MoveFile.RECENT_KEYS">
       <recent name="D:\Programming\slonum\src\components" />
       <recent name="D:\Programming\slonum\src\components\Application\ApplicationForm" />
@@ -76,7 +81,7 @@
       <workItem from="1658786170496" duration="23775000" />
       <workItem from="1658872506247" duration="11079000" />
       <workItem from="1658909955057" duration="117000" />
-      <workItem from="1658910089021" duration="387000" />
+      <workItem from="1658910089021" duration="816000" />
     </task>
     <servers />
   </component>
