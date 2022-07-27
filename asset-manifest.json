@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "/slonum/static/css/main.1ded9750.css",
-    "main.js": "/slonum/static/js/main.b429863f.js",
+    "main.css": "/slonum/static/css/main.9fd8b5e6.css",
+    "main.js": "/slonum/static/js/main.25485cd7.js",
     "static/media/cover.png": "/slonum/static/media/cover.6e472d5345ad6f63220b.png",
     "static/media/background.png": "/slonum/static/media/background.d4d6ce71a05babd1fcb0.png",
     "static/media/waves.png": "/slonum/static/media/waves.4a485b9a9aea1e2d3313.png",
@@ -11,11 +11,11 @@
     "static/media/dashed.png": "/slonum/static/media/dashed.1e359ec76ecd8594a04a.png",
     "static/media/vkAdvantage.png": "/slonum/static/media/vkAdvantage.291899147b9ce56bce88.png",
     "index.html": "/slonum/index.html",
-    "main.1ded9750.css.map": "/slonum/static/css/main.1ded9750.css.map",
-    "main.b429863f.js.map": "/slonum/static/js/main.b429863f.js.map"
+    "main.9fd8b5e6.css.map": "/slonum/static/css/main.9fd8b5e6.css.map",
+    "main.25485cd7.js.map": "/slonum/static/js/main.25485cd7.js.map"
   },
   "entrypoints": [
-    "static/css/main.1ded9750.css",
-    "static/js/main.b429863f.js"
+    "static/css/main.9fd8b5e6.css",
+    "static/js/main.25485cd7.js"
   ]
 }
