@@ -47,11 +47,11 @@
 }
 %leftCostTriangle {
   border: 7px solid transparent;
-  border-bottom: 7px solid #0e8958;
-  border-left: 7px solid #0e8958;
+  border-bottom: 7px solid #0e8958 !important;
+  border-left: 7px solid #0e8958 !important;
 }
 %rightCostTriangle {
   border: 7px solid transparent;
-  border-bottom: 7px solid #0e8958;
-  border-right: 7px solid #0e8958;
+  border-bottom: 7px solid #0e8958 !important;
+  border-right: 7px solid #0e8958 !important;
 }
