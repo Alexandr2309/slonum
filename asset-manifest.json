@@ -1,6 +1,6 @@
 {
   "files": {
-    "main.css": "/slonum/static/css/main.1a547f8a.css",
+    "main.css": "/slonum/static/css/main.30571faa.css",
     "main.js": "/slonum/static/js/main.25485cd7.js",
     "static/media/cover.png": "/slonum/static/media/cover.6e472d5345ad6f63220b.png",
     "static/media/background.png": "/slonum/static/media/background.d4d6ce71a05babd1fcb0.png",
@@ -11,11 +11,11 @@
     "static/media/dashed.png": "/slonum/static/media/dashed.1e359ec76ecd8594a04a.png",
     "static/media/vkAdvantage.png": "/slonum/static/media/vkAdvantage.291899147b9ce56bce88.png",
     "index.html": "/slonum/index.html",
-    "main.1a547f8a.css.map": "/slonum/static/css/main.1a547f8a.css.map",
+    "main.30571faa.css.map": "/slonum/static/css/main.30571faa.css.map",
     "main.25485cd7.js.map": "/slonum/static/js/main.25485cd7.js.map"
   },
   "entrypoints": [
-    "static/css/main.1a547f8a.css",
+    "static/css/main.30571faa.css",
     "static/js/main.25485cd7.js"
   ]
 }
