@@ -58,11 +58,11 @@ $padding-around: 60px;
   background-color: $cost-item-color;
   position: relative;
   &::after {
-    @include pseudoTriangle(0px, _, -14px, _);
+    @include pseudoTriangle(0px, unset, -14px, unset);
     @extend %leftCostTriangle;
   }
   &::before {
-    @include pseudoTriangle(0px, -14px, _, _);
+    @include pseudoTriangle(0px, -14px, unset, unset);
     @extend %rightCostTriangle;
   }
 }
@@ -84,7 +84,7 @@ $padding-around: 60px;
   &Label {
     @include font($primary-text-color, 400 $point-card-font);
     letter-spacing: 0.05em;
-    &:first-child{
+    &:first-child {
       margin-bottom: 30px;
     }
   }
@@ -112,8 +112,7 @@ $padding-around: 60px;
     color: #ffffff;
   }
 }
-.social{
-
+.social {
 }
 .submit {
   display: flex;

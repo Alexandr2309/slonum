@@ -29,7 +29,7 @@
     text-transform: uppercase;
   }
   &Title {
-    @include font(_, $main-title-font);
+    @include font($primary-title-color, $main-title-font);
     margin-bottom: 40px;
   }
   &Subtitle {
