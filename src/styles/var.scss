@@ -1,19 +1,23 @@
 @import url('https://fonts.googleapis.com/css2?family=Rubik:wght@400;500;700&display=swap'); // Rubik Font
 @import url('https://fonts.googleapis.com/css2?family=Nunito:wght@400;700;900&display=swap'); // Nunito Font
 
+/*Font-family*/
+$primary-font-family: 'Rubik';
+$secondary-font-family: 'Nunito';
+
 /*Fonts*/
-$main-title-font: 700 55px/122% 'Nunito';
-$section-title-font: 700 32px/44px 'Nunito';
-$common-font: 400 22px/150% 'Rubik';
-$paragraf-font: 400 18px/150% 'Rubik';
-$timer-num-font: 700 32px/38px 'Rubik';
-$timer-label-font: 400 16px/22px 'Nunito';
-$label-font: 400 15px/166% 'Rubik';
-$point-card-font: 20px/24px 'Rubik';
-$policy-label-font: 400 15px/18px "Rubik";
-$footer-caption-font: 400 20px/27px "Nunito";
-$footer-link-font: 700 20px/27px "Nunito";
-$plan-num-font: 700 40px/60px "Rubik";
+$main-title-font: 700 55px/122% $secondary-font-family;
+$section-title-font: 700 32px/44px $secondary-font-family;
+$common-font: 400 22px/150% $primary-font-family;
+$paragraf-font: 400 18px/150% $primary-font-family;
+$timer-num-font: 700 32px/38px $primary-font-family;
+$timer-label-font: 400 16px/22px $secondary-font-family;
+$label-font: 400 15px/166% $primary-font-family;
+$point-card-font: 20px/24px $primary-font-family;
+$policy-label-font: 400 15px/18px $primary-font-family;
+$footer-caption-font: 400 20px/27px $secondary-font-family;
+$footer-link-font: 700 20px/27px $secondary-font-family;
+$plan-num-font: 700 40px/60px $primary-font-family;
 $plan-text-font: 400 $point-card-font;
 
 /*Colors*/
@@ -47,5 +51,5 @@ $auth-btn-font: 400 $point-card-font;
 $auth-btn-border: 1px solid $primary-title-color;
 
 /*global*/
-$background-color: #F5F5F5;
+$background-color: #f5f5f5;
 $cost-item-color: $primary-accent-color;
