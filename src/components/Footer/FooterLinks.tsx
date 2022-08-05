@@ -7,7 +7,7 @@ const FooterLinks = () => {
     <nav className={cl.links}>
       {footerLinks.map((link, i) => (
         <a href="#" key={i} className={cl.linkItem}>
-          {link.title}
+          <span>{link.title}</span>
         </a>
       ))}
     </nav>

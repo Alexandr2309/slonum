@@ -2,8 +2,12 @@
 
 .plan {
   background: url('../img/Plan/sky.png') 0 0 no-repeat;
-  padding-bottom: 244px;
+  padding-bottom: 214px;
   padding-top: 40px;
+  & > div:first-child {
+    clip-path: polygon(0% 0%, 100% 0%, 100% 10%, 0% 10%);
+    padding-bottom: 30px;
+  }
   & h2 {
     margin-bottom: 133px;
   }
@@ -14,7 +18,7 @@
     &:nth-child(1) {
       top: 0;
       left: 0;
-      transform: translate(-68.25px,-44px );
+      transform: translate(-68.25px, -44px);
     }
     &:nth-child(2) {
       top: 157px;

@@ -1,12 +1,12 @@
 import FormInput from '../shared/FormInput'
-import Button from '../UI/Button'
-import React, { FC } from 'react'
+import React, {FC} from 'react'
+import {BlobButton} from "../UI/BlobButton";
 
 const MailingFormActions: FC = () => {
   return (
     <div className="mailing__actions">
       <FormInput ph="Email" />
-      <Button cl="" />
+      <BlobButton reverse={true}/>
     </div>
   )
 }

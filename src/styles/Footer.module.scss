@@ -28,9 +28,13 @@
   text-decoration: none;
   @include font($footer-link-color, $footer-link-font);
   letter-spacing: 0.03em;
+  & span {
+    display: block;
+    position: relative;
+    @extend %lineThroughAnim;
+  }
 }
 .scroll {
-
   &Block {
     margin-left: 243px;
     & h5 {

@@ -10,6 +10,8 @@
     padding: 30px 0px;
     align-items: center;
     border-top: 1px solid $question-separate-color;
+    opacity: 0;
+    transition: all .45s ease-in;
     &:last-of-type {
       border-bottom: 1px solid $question-separate-color;
     }
@@ -18,15 +20,19 @@
     z-index: 999;
   }
   &Toggler {
-    transition: all 0.3s ease-in-out;
     margin-left: auto;
     position: relative;
     transform: translateX(5px);
     background-color: $orange-color;
     padding: 13px;
     border-radius: 50%;
+    & img {
+      transition: all 0.4s ease-in-out;
+    }
     &.show {
-      transform: rotate(180deg);
+      & img {
+        transform: rotate(135deg);
+      }
     }
   }
   &Content {

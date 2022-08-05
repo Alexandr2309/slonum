@@ -1,14 +1,12 @@
 import React, { FC } from 'react'
 import HeaderTop from './HeaderTop'
 import HeaderInfo from './HeaderInfo'
-import path from '../../helpers/imgPass'
+import HeaderSpace from './HeaderSpace'
 
 const Header: FC = () => {
   return (
     <header>
-      <div>
-        <img src={path.cover} alt="cover" />
-      </div>
+      <HeaderSpace />
       <div className="container">
         <HeaderTop />
         <HeaderInfo />

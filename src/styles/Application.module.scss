@@ -94,7 +94,9 @@ $padding-around: 60px;
     margin-bottom: 30px;
     & sup {
       @include font(#000000, 500 30px/36px 'Rubik');
-      text-decoration: line-through;
+      text-decoration: none;
+      transform: translateY(50px) scale(1.5);
+      transition: all 0.7s ease;
       padding: 16px 0px 0px 12px;
     }
   }
@@ -124,4 +126,9 @@ $padding-around: 60px;
     background-color: $secondary-btn-background;
     box-shadow: $secondary-btn-shadow;
   }
+}
+.plain {
+  overflow: hidden;
+  //animation: plainFlight 1.2s cubic-bezier(.49,.17,.65,.83) 1 forwards;
+  transform: translate(500px,0px);
 }

@@ -20,6 +20,9 @@
   &Auth {
     @extend %authBtn;
     color: $primary-title-color;
+    transition: all 0.35s;
+    position: relative;
+    overflow: hidden;
   }
 }
 .main {
@@ -39,6 +42,12 @@
   }
   &Btn {
     @extend %primaryBtn;
+    &:hover {
+      box-shadow: 0 0 10px 0 $primary-btn-background inset, 0 0 10px 4px $primary-btn-background;
+      background-color: unset;
+      color: $primary-btn-background;
+      transition: all .25s ease;
+    }
   }
   &Action {
     display: flex;
