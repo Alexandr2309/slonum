@@ -1,21 +1,22 @@
 {
   "files": {
-    "main.css": "/slonum/static/css/main.365e7f16.css",
-    "main.js": "/slonum/static/js/main.25485cd7.js",
-    "static/media/cover.png": "/slonum/static/media/cover.6e472d5345ad6f63220b.png",
+    "main.css": "/slonum/static/css/main.87b2c0dc.css",
+    "main.js": "/slonum/static/js/main.11171381.js",
     "static/media/background.png": "/slonum/static/media/background.d4d6ce71a05babd1fcb0.png",
+    "static/media/cover.png": "/slonum/static/media/cover.016de88c3d4fb4fb2403.png",
     "static/media/waves.png": "/slonum/static/media/waves.4a485b9a9aea1e2d3313.png",
     "static/media/diploma.png": "/slonum/static/media/diploma.9b8c3121f08faacae6ea.png",
     "static/media/sky.png": "/slonum/static/media/sky.4eb7ef9abc2d89ac8b88.png",
     "static/media/certification.png": "/slonum/static/media/certification.8a2b3d804ef0b3511362.png",
     "static/media/dashed.png": "/slonum/static/media/dashed.1e359ec76ecd8594a04a.png",
     "static/media/vkAdvantage.png": "/slonum/static/media/vkAdvantage.291899147b9ce56bce88.png",
+    "static/media/airballon.png": "/slonum/static/media/airballon.b8343a7aac3c7079eeeb.png",
     "index.html": "/slonum/index.html",
-    "main.365e7f16.css.map": "/slonum/static/css/main.365e7f16.css.map",
-    "main.25485cd7.js.map": "/slonum/static/js/main.25485cd7.js.map"
+    "main.87b2c0dc.css.map": "/slonum/static/css/main.87b2c0dc.css.map",
+    "main.11171381.js.map": "/slonum/static/js/main.11171381.js.map"
   },
   "entrypoints": [
-    "static/css/main.365e7f16.css",
-    "static/js/main.25485cd7.js"
+    "static/css/main.87b2c0dc.css",
+    "static/js/main.11171381.js"
   ]
 }
