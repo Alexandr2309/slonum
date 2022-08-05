@@ -2,42 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="33155a1d-215d-47c9-9c7d-1771c36a58a9" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/src/components/Header/HeaderAnimElems/HeaderKeyframes.ts" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/components/Header/HeaderAnimElems/HeaderStyledComponents.tsx" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/components/Header/HeaderAnimElems/propsElementsData.ts" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/components/Header/HeaderAnimElems/severalAnimElements.tsx" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/components/Header/HeaderAnimateElements.tsx" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/components/Header/HeaderSpace.tsx" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/components/UI/BlobButton.tsx" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/hooks/useAnimate.ts" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/styles/BlobBtn.scss" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/Advantages/AdvantageItem.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/Advantages/AdvantageItem.tsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/Application/ApplicationCost/ApplicationCostPrice.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/Application/ApplicationCost/ApplicationCostPrice.tsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/Application/ApplicationForm/ApplicationSubmit.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/Application/ApplicationForm/ApplicationSubmit.tsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/Footer/FooterLinks.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/Footer/FooterLinks.tsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/Header/Header.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/Header/Header.tsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/Layout/Container.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/Layout/Container.tsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/Plan/Plan.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/Plan/Plan.tsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/Plan/PlanDashedWrapper.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/Plan/PlanDashedWrapper.tsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/SubscribeMailing/MailingFormActions.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/SubscribeMailing/MailingFormActions.tsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/UI/Accordion.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/UI/Accordion.tsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/UI/Button.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/UI/Button.tsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/declaration.d.ts" beforeDir="false" afterPath="$PROJECT_DIR$/src/declaration.d.ts" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/helpers/data.ts" beforeDir="false" afterPath="$PROJECT_DIR$/src/helpers/data.ts" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/helpers/helperFunc.ts" beforeDir="false" afterPath="$PROJECT_DIR$/src/helpers/helperFunc.ts" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/helpers/imgPass.ts" beforeDir="false" afterPath="$PROJECT_DIR$/src/helpers/imgPass.ts" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/img/Header/cover.png" beforeDir="false" afterPath="$PROJECT_DIR$/src/img/Header/cover.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/styles/Accordion.module.scss" beforeDir="false" afterPath="$PROJECT_DIR$/src/styles/Accordion.module.scss" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/styles/Advantage.module.scss" beforeDir="false" afterPath="$PROJECT_DIR$/src/styles/Advantage.module.scss" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/styles/App.scss" beforeDir="false" afterPath="$PROJECT_DIR$/src/styles/App.scss" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/styles/Application.module.scss" beforeDir="false" afterPath="$PROJECT_DIR$/src/styles/Application.module.scss" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/styles/Footer.module.scss" beforeDir="false" afterPath="$PROJECT_DIR$/src/styles/Footer.module.scss" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/styles/Header.module.scss" beforeDir="false" afterPath="$PROJECT_DIR$/src/styles/Header.module.scss" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/styles/Plan.module.scss" beforeDir="false" afterPath="$PROJECT_DIR$/src/styles/Plan.module.scss" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/styles/config.scss" beforeDir="false" afterPath="$PROJECT_DIR$/src/styles/config.scss" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/styles/var.scss" beforeDir="false" afterPath="$PROJECT_DIR$/src/styles/var.scss" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/types/index.ts" beforeDir="false" afterPath="$PROJECT_DIR$/src/types/index.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/Footer/FooterScrollingTop.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/Footer/FooterScrollingTop.tsx" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -129,7 +95,8 @@
       <workItem from="1659649753955" duration="2806000" />
       <workItem from="1659652597751" duration="2239000" />
       <workItem from="1659659936835" duration="15817000" />
-      <workItem from="1659686488105" duration="2095000" />
+      <workItem from="1659686488105" duration="2825000" />
+      <workItem from="1659736601671" duration="761000" />
     </task>
     <servers />
   </component>
